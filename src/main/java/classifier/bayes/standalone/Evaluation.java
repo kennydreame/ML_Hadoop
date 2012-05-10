@@ -147,12 +147,8 @@ public class Evaluation {
     Classifier randomForest10 = new RandomForest();
     RandomForest randomForest100 = new RandomForest();
     randomForest100.setNumTrees(100);
-    Classifier lr = new Logistic();
-    SMO svm = new SMO();
-    SMO svm_rbf = new SMO();
-    svm_rbf.setKernel(Kernel.forName("weka.classifiers.functions.supportVector.RBFKernel", new String[]{}));
 
-    Classifier[] classifiers = new Classifier[]{nb, c45, randomForest10, randomForest100, lr, svm};
+    Classifier[] classifiers = new Classifier[]{rbnc3, rbnc2, rbnc1, nb, hnb, aode, a2de, nb, c45, randomForest10, randomForest100};
 
     // compute the classification accuracy and standard deviation of each
     // algorithm on each data set
