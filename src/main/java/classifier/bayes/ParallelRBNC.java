@@ -1,3 +1,13 @@
+/**
+ * 
+ * Randomized Bayesian Network Classiﬁers (RBNC) constructs a collection of semi-naive Bayesian network classiﬁers
+ * and then combines their predictions as the ﬁnal output. Speciﬁcally, the structure learning of each component Bayesian network classiﬁer is performed by just randomly choosing the parent of each attribute in additional to class attribute, and
+ * parameter learning is performed by using maximum likelihood method. RBNC retains many of naive Bayes’ desirable property, such as scaling linearly with respect to both the number of instances and attributes, needing a single pass through
+ * the training data and robust to noise, etc.
+ * 
+ * For more details, see https://sites.google.com/site/wangqingfd/rbnc.pdf?attredirects=0
+ */
+
 package classifier.bayes;
 
 import org.apache.hadoop.conf.Configuration;
