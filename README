@@ -2,4 +2,4 @@ Parallelized Machine Learning Algorithms on Hadoop.
 
 We have implemented Randomized Bayesian Network Classifiers(RBNC).
 
-Plan to include : RBNC, Random Forest, MART, Logistic Regression, SVM, etc.
+Plan to include : Random Forest, Gradient Descent Boosting Trees, Logistic Regression, SVM, etc.
